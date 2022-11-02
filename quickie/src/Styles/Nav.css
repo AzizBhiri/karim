@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border :4px solid #f00;
+    border-radius: 4px;
+}
+
+.main-logo {
+    scale: 1.4;
+    height: 100px;
+}
+
+.text {
+    color: #f00;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.text > h4 {
+    padding: 3vw;
+}
+
+.menu {
+    padding-right: 10px;
+    scale: 1.8;
+    margin-bottom: 22px;
+}
+
+.fa-bars {
+    color: #f00;
+}
