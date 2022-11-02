@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/karim/static/css/main.029269f6.css",
+    "main.css": "/karim/static/css/main.740c9c5b.css",
     "main.js": "/karim/static/js/main.6e9e04be.js",
     "static/media/mainLogo.png": "/karim/static/media/mainLogo.9bc4841ae5112e09da60.png",
     "index.html": "/karim/index.html",
-    "main.029269f6.css.map": "/karim/static/css/main.029269f6.css.map",
+    "main.740c9c5b.css.map": "/karim/static/css/main.740c9c5b.css.map",
     "main.6e9e04be.js.map": "/karim/static/js/main.6e9e04be.js.map"
   },
   "entrypoints": [
-    "static/css/main.029269f6.css",
+    "static/css/main.740c9c5b.css",
     "static/js/main.6e9e04be.js"
   ]
 }
