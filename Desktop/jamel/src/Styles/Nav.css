@@ -1,0 +1,72 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 3px 20px 0px #1d70b7;
+    border-radius: 10px;
+}
+
+.main-logo {
+    height: 100px;
+}
+
+.text {
+    color: #1d70b7;
+    font-family: 'Dosis', sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    display: flex;;
+}
+
+.text > p, .dropbtn {
+    padding: 3vw;
+}
+
+.menu {
+    padding: 25px;
+    scale: 1.8;
+}
+
+.fa-bars {
+    color: #1d70b7;
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    color: #332980;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {
+    background-color: #1d70b7;
+    color: #fff;
+}
+  
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {
+    background-color: #1d70b7;
+    color: #fff;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .fa-bars {
+        display: block;
+    }
+    .text {
+      display: none;
+    }
+  }
+
+
